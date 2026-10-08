@@ -1,6 +1,6 @@
 import pytest
 
-from src import SimpleTokenizerV1
+from tinygpt import SimpleTokenizerV1
 
 
 @pytest.fixture

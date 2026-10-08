@@ -2,7 +2,7 @@ from pathlib import Path
 from re import split
 from urllib.request import urlretrieve
 
-from tokenizer import SimpleTokenizerV1, UNKNOWN_TOKEN, END_OF_TEXT_TOKEN
+from .tokenizer import SimpleTokenizerV1, UNKNOWN_TOKEN, END_OF_TEXT_TOKEN
 
 
 def main() -> None:

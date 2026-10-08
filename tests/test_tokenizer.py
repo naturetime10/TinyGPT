@@ -1,6 +1,6 @@
 import pytest
 
-from src import SimpleTokenizerV1
+from tinygpt import SimpleTokenizerV1
 
 
 def test_reverse_vocab(tokenizer: SimpleTokenizerV1, vocab: dict[str, int]) -> None:
